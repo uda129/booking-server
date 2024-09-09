@@ -56,7 +56,7 @@ class CurrencyProcessor(Processor):
 
     def convert_currency(self):
         if self.orders.currency=='USD':
-            self.orders.price=str(int(self.orders.price*31))
+            self.orders.price=str(int(self.orders.price)*31)
             self.orders.currency='TWD'
             
             
