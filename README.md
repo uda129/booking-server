@@ -1,7 +1,5 @@
 # booking-server
-這是一個簡單的訂單格單格式檢查與轉換的API
-以docker包裝環境
-並附有pytest進行覆蓋成功與失敗的案例
+這是一個簡單的訂單格單格式檢查與轉換的API, 以docker包裝環境, 並附有pytest進行覆蓋成功與失敗的案例
 
 ## SOLID原則
 ### 單一職責原則 SRP(A class should have only one reason to change)
